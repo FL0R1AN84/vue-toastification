@@ -2,10 +2,10 @@
 import { useToast } from 'vue-toastification';
 const toast = useToast();
 
-const info = () => toast.info('You did it! 🎉');
-const success = () => toast.success('You did it! 🎉');
-const warning = () => toast.warning('You did it! 🎉');
-const error = () => toast.error('You did it! 🎉');
+const info = () => toast.info('Information 🤔');
+const success = () => toast.success('Success 😉');
+const warning = () => toast.warning('Warning 😫');
+const error = () => toast.error('Error 🤪');
 </script>
 
 <template>
@@ -36,6 +36,9 @@ const error = () => toast.error('You did it! 🎉');
   border-radius: 3px;
   font-family: 'Poiret One', cursive;
   font-size: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-green {
