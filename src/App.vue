@@ -2,12 +2,18 @@
 import { useToast } from 'vue-toastification';
 const toast = useToast();
 
+const info = () => toast.info('You did it! 🎉');
 const success = () => toast.success('You did it! 🎉');
+const warning = () => toast.warning('You did it! 🎉');
+const error = () => toast.error('You did it! 🎉');
 </script>
 
 <template>
   <div>
-    <button class="btn btn-blue" @click="success">Show success</button>
+    <button class="btn btn-blue" @click="info">Show info</button>
+    <button class="btn btn-green" @click="success">Show success</button>
+    <button class="btn btn-yellow" @click="warning">Show warning</button>
+    <button class="btn btn-red" @click="error">Show error</button>
   </div>
 </template>
 
@@ -33,7 +39,7 @@ const success = () => toast.success('You did it! 🎉');
 }
 
 .btn-green {
-  @include button-bg(#2ecc71);
+  @include button-bg(#3d8b3f);
 }
 
 .btn-blue {
@@ -41,10 +47,10 @@ const success = () => toast.success('You did it! 🎉');
 }
 
 .btn-yellow {
-  @include button-bg(#f1c40f);
+  @include button-bg(#967000);
 }
 
 .btn-red {
-  @include button-bg(#e74c3c);
+  @include button-bg(#9b0001);
 }
 </style>
