@@ -1,1 +1,15 @@
-{}
+{
+    "semi": true,
+    "arrowParens": "always",
+    "singleQuote": true,
+    "overrides": [
+        {
+            "files": "*.pug",
+            "options": {
+                "parser": "vue",
+                "semi": true
+            }
+        }
+    ],
+    "useTabs": false
+}
