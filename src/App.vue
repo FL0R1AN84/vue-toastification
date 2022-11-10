@@ -1,16 +1,50 @@
 <script setup lang="ts">
-import { useToast } from "vue-toastification";
+import { useToast } from 'vue-toastification';
 const toast = useToast();
 
-const success = () => toast.success("You did it! 🎉");
+const success = () => toast.success('You did it! 🎉');
 </script>
 
 <template>
-  <div class="grid grid-cols-1">
-    <div>
-      <button class="" @click="success">Show success</button>
-    </div>
+  <div>
+    <button class="btn btn-blue" @click="success">Show success</button>
   </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+@mixin button-bg($bg) {
+  background: $bg;
+  &:hover {
+    background: darken($bg, 8%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background: darken($bg, 25%);
+  }
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+}
+
+.btn-green {
+  @include button-bg(#2ecc71);
+}
+
+.btn-blue {
+  @include button-bg(#3498db);
+}
+
+.btn-yellow {
+  @include button-bg(#f1c40f);
+}
+
+.btn-red {
+  @include button-bg(#e74c3c);
+}
+</style>
