@@ -1,6 +1,6 @@
 # vue-toastification
 
-This template should help get you started developing with Vue 3 in Vite.
+Code and Live Demo: [codesandbox.io](https://https://codesandbox.io/p/github/FL0R1AN84/vue-toastification/csb-6ewew0/button-toast-demo)
 
 ## Install vue-toastification
 
