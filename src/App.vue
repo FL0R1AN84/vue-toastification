@@ -42,18 +42,18 @@ const error = () => toast.error('Error 🤪');
 }
 
 .btn-green {
-  @include button-bg(#3d8b3f);
+  @include button-bg(#4caf51);
 }
 
 .btn-blue {
-  @include button-bg(#3498db);
+  @include button-bg(#2196f3);
 }
 
 .btn-yellow {
-  @include button-bg(#967000);
+  @include button-bg(#ffc108);
 }
 
 .btn-red {
-  @include button-bg(#9b0001);
+  @include button-bg(#ff5253);
 }
 </style>
