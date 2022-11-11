@@ -1,6 +1,6 @@
 # vue-toastification
 
-Code and Live Demo: [codesandbox.io](https://https://codesandbox.io/p/github/FL0R1AN84/vue-toastification/csb-6ewew0/button-toast-demo)
+Code and Live Demo: [codesandbox.io](https://codesandbox.io/p/github/FL0R1AN84/vue-toastification/csb-6ewew0/button-toast-demo)
 
 ## Install vue-toastification
 
