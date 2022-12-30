@@ -26,14 +26,17 @@ const error = () => toast.error('Error 🤪');
   }
   &:active {
     background: darken($bg, 25%);
+    box-shadow: 5px 5px 5px gray;
   }
 }
 
 .btn {
   color: white;
   text-decoration: none;
+  margin-bottom: 1em;
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 0.5em;
+  box-shadow: 10px 5px 5px gray;
   font-family: 'Poiret One', cursive;
   font-size: 2em;
   display: block;
