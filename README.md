@@ -1,6 +1,6 @@
 # vue-toastification
 
-Code and Live Demo: [vercel.com](https://vue-toastification.vercel.app/)
+Live Demo: [vercel.com](https://vue-toastification.vercel.app/)
 
 ## Install vue-toastification
 
